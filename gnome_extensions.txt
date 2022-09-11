@@ -1,0 +1,14 @@
+AppIndicator and KStatusNotifierItem Support
+Bluetooth Quick Connect
+Clipboard Indicator
+Color Picker
+CPU Power Manager
+Dash to Dock
+ddterm
+Desktop Icons: Neo
+Mute/Unmute
+Sound Input & Output Device Chooser
+Sound percentage
+Spotify Controller
+spotify-tray
+User Themes
