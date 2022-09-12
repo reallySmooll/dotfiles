@@ -1,0 +1,11 @@
+canon-pixma-mg2500-complete
+chrome-gnome-shell
+google-chrome
+openrazer-daemon
+openrazer-driver-dkms
+openrazer-meta
+polychromatic
+proftpd
+python-openrazer
+spotify
+hardcode-tray
