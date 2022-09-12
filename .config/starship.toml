@@ -1,5 +1,6 @@
 # Universal prompt
-format = "[┌─](bold green)$username$hostname$all"
+format = """[┌─](bold green)$username$hostname$all[│](bold green)
+$character"""
 
 # Inserts a blank line between shell prompts
 add_newline = false 
@@ -15,15 +16,15 @@ error_symbol = "[✖](bold red)"
 
 # Username
 [username]
-format = "[$user]($style)@"
+format = "[\ue0b6](fg:#202db8)[$user]($style)[\ue0b0](fg:#202db8)@"
 style_root = "bold #ff0000"
-style_user = "bold #ffa500"
+style_user = "bg:#202db8"
 show_always = true
 
 # Hostname (computer name)
 [hostname]
-format = "[$hostname]($style) [in](bold #ffff00) "
-style = "bold dimmed #00ff00"
+format = "[\ue0b6](fg:#33aa33)[$hostname]($style)[\ue0b0](fg:#33aa33) in "
+style = "bg:#33aa33"
 ssh_only = false
 
 # Disable the package module, hiding it from the prompt completely
