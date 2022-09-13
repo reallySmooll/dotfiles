@@ -16,15 +16,15 @@ error_symbol = "[✖](bold red)"
 
 # Username
 [username]
-format = "[\ue0b6](fg:#202db8)[$user]($style)[\ue0b0](fg:#202db8)@"
+format = "[$user]($style)@"
 style_root = "bold #ff0000"
-style_user = "bg:#202db8"
+style_user = "fg:#00ffff"
 show_always = true
 
 # Hostname (computer name)
 [hostname]
-format = "[\ue0b6](fg:#33aa33)[$hostname]($style)[\ue0b0](fg:#33aa33) in "
-style = "bg:#33aa33"
+format = "[$hostname]($style) in "
+style = "fg:#fe015a"
 ssh_only = false
 
 # Disable the package module, hiding it from the prompt completely
