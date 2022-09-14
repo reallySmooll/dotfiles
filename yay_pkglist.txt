@@ -1,3 +1,4 @@
+bdf-unifont
 canon-pixma-mg2500-complete
 chrome-gnome-shell
 google-chrome
